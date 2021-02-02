@@ -1,0 +1,7 @@
+(coq.theory
+ (name Test2)
+
+ (package dune-test2) 
+
+)
+

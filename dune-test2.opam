@@ -1,0 +1,18 @@
+synopsis:     "synopsis test2"
+description:  "description test2"
+name:         "dune-test2"
+opam-version: "2.0"
+maintainer:   "mbaton@ya.ru"
+authors:      "Nikolai"
+homepage:     "https://github.com/AndronovN/dune-test2"
+bug-reports:  "https://github.com/AndronovN/dune-test2"
+dev-repo:     "git+https://github.com/AndronovN/dune-test2"
+license:      "GPL 3"
+doc:          "https://github.com/AndronovN/dune-test2/README.md"
+
+depends: [
+  "coq"           { >= "8.11.0" }
+  "dune"          { >= "2.8.0"  }
+]
+
+build: [ "dune" "build" "-p" name "-j" jobs ]
