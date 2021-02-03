@@ -5,3 +5,5 @@ Compute "test21++"%string.
 Definition a := 5.
 
 Definition b := 6.
+
+Definition c := 7.
